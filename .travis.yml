@@ -1,0 +1,7 @@
+ghc:
+  - "7.10"
+
+install: true
+
+script:
+  - runhaskell BuildFromSource.hs
